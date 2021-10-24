@@ -4,6 +4,7 @@ def bigger_price(limit: int, data: list) -> list:
         TOP most expensive goods
     """
     # your code here
+    # you are the best
     return sorted(data, key=itemgetter('price'), reverse=True)[:limit]
 
 
